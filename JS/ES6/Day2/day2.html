@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input {
+            margin: 0px 0px 15px 15px;
+        }
+
+        button {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Day 2 - Student marks</h1>
+    <hr>
+    <label for="">Enter the marks of subject 1</label><input type="number" id="s1"><br>
+    <label for="">Enter the marks of subject 2</label><input type="number" id="s2"><br>
+    <label for="">Enter the marks of subject 3</label><input type="number" id="s3"><br>
+    <label for="">Enter the marks of subject 4</label><input type="number" id="s4"><br>
+    <label for="">Enter the marks of subject 5</label><input type="number" id="s5"><br>
+    <label for="">Enter the marks of subject 6</label><input type="number" id="s6"><br>
+
+    <button onclick="verify()" id="ver">Verify</button>
+    <span id="spanver"></span><br>
+
+    <button onclick="cal()" id="cal" style="display: none;">Calculate Percentage</button>
+    <span id="spancal"></span><br>
+
+    <a href="./marks.html" target="_blank" style="display: none;" id="ms"><button>Generate Marks sheet</button></a>
+
+    <script src="day2.js"></script>
+
+</body>
+
+</html>
